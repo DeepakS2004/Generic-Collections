@@ -1,0 +1,28 @@
+﻿<Window x:Class="Generic_Collections.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Generic_Collections"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <StackPanel>
+        <StackPanel Orientation="Horizontal">
+            <Label Content="Name :" Margin="50,40,0,0"  FontSize="15" Background="{DynamicResource logo}" ></Label>
+            <TextBox x:Name="txtname" Width="350" Height="25" Margin="10,40,335,0" FontSize="15" BorderThickness="1"></TextBox>
+        </StackPanel>
+        <StackPanel Orientation="Horizontal">
+            <Label Content="Age    :" Margin="50,40,0,0" FontSize="15" Background="{StaticResource logo }" ></Label>
+            <TextBox x:Name="txtage" Width="350" Height="25" Margin="10,40,335,0" FontSize="15" BorderThickness="1"></TextBox>
+        </StackPanel>
+        <StackPanel Orientation="Horizontal">
+            <Label Content="Email  :" Margin="50,40,0,0" FontSize="15"  ></Label>
+            <TextBox x:Name="txtemail" Width="350" Height="25" Margin="10,40,335,0" FontSize="15" BorderThickness="1"></TextBox>
+        </StackPanel>
+        <StackPanel Orientation="Horizontal">
+            <Label Content="Salary  :" Margin="50,40,0,0" FontSize="15" ></Label>
+            <TextBox x:Name="txtsalary" Width="350" Height="25" Margin="10,40,335,0" FontSize="15" BorderThickness="1"></TextBox>
+        </StackPanel>
+        <Button x:Name="btnenter" Content="View" Width="150" Height="35" Style="{StaticResource Login}" Margin="0,40,95,0" FontSize="15" BorderThickness="1" Click="btnenter_Click"></Button>
+    </StackPanel>
+</Window>
